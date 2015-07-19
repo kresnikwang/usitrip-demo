@@ -80,7 +80,7 @@
 
 #csstabs li{ padding:2px;}
 
-#csstabs{ position:relative; width:892px; height:347px; float: left;}
+#csstabs{ position:relative; width:862px; height:347px; float: left; margin-left: 15px}
 
 #csstabs .tabbox_nav{
 	padding:5px 5px 5px 5px;
