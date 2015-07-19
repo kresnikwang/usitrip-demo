@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http:// -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Demo For Unitrip</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/non-responsive/non-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/view_style.css"/>
+    <script src="js/modernizr.custom.js"></script>
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+    .en-markup-crop-options {
+        top: 18px !important;
+        left: 50% !important;
+        margin-left: -100px !important;
+        width: 200px !important;
+        border: 2px rgba(255, 255, 255, .38) solid !important;
+        border-radius: 4px !important;
+    }
+
+    .en-markup-crop-options div div:first-of-type {
+        margin-left: 0px !important;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+            <a class="navbar-brand" href="http://#">USI Trip DEMO</a>
+        </div>
+        <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+        <div id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="http://#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="http://#" class="dropdown-toggle"
+                       data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div id="main_banner" class="container main_banner">
+
+    <div id="csstabs">
+        <div class="tabbox_title"><h2>热门国家</h2></div>
+
+        <div id="tab1" class="tabbox">
+            <div class="tabbox_nav">
+            <h3>美洲</h3>
+                <ul>
+                    <li><a src="#"><p>美国</p></a></li>
+                    <li><a src="#"><p>加拿大</p></a></li>
+                    <li><a src="#"><p>巴西</p></a></li>
+                    <li><a src="#"><p>阿根廷</p></a></li>
+                </ul>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+            <div class="tabcontent">
+                <div class="col-xs-4">
+                    <h3>美国东海岸</h3>
+                    <ul>
+                        <li>3123123 </li>
+                        <li> 231231231</li>
+                        <li>3123123 </li>
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <h3>美国西海岸</h3>
+                    <ul>
+                        <li>3123123 </li>
+                        <li> 231231231</li>
+                        <li>3123123 </li>
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <h3>美国南部</h3>
+                    <ul>
+                        <li>3123123 </li>
+                        <li> 231231231</li>
+                        <li>3123123 </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--end #tab1//-->
+
+        <div id="tab2" class="tabbox">
+            <div class="tabbox_nav">
+                <h3>欧洲</h3>
+                <ul>
+                    <li><a src="#"><p>德国</p></a></li>
+                    <li><a src="#"><p>英国</p></a></li>
+                    <li><a src="#"><p>意大利</p></a></li>
+                </ul>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+
+            <div class="tabcontent">
+                <li><a href="" title="Why we should all be forward thinking">Why we should all be forward thinking</a></li>
+                <li><a href="" title="Mopay Flash and GIF Banners">Mopay Flash and GIF Banners</a></li>
+
+            </div>
+        </div><!--end #tab2//-->
+
+        <div id="tab3" class="tabbox">
+            <div class="tabbox_nav">
+                <h3>亚洲</h3>
+                <ul>
+                    <li><a src="#"><p>中国</p></a></li>
+                    <li><a src="#"><p>印度</p></a></li>
+                    <li><a src="#"><p>印度尼西亚</p></a></li>
+                </ul>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+            <div class="tabcontent">
+
+                <li><a href="" title="5 key metrics you should know from Google Analytics">5 key metrics you 31231231231312e Analytics</a></li>
+                <li><a href="" title="We all dislike IE6 but lets not be childish">We all diserwerwerwerut lets not be childish</a></li>
+
+            </div>
+        </div><!--end #tab1//-->
+
+        <div id="tab4" class="tabbox">
+            <div class="tabbox_nav">
+                <h3>澳洲</h3>
+                <ul>
+                    <li><a src="#"><p>澳大利亚</p></a></li>
+                    <li><a src="#"><p>新西兰</p></a></li>
+                </ul>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+            <div class="tabcontent">
+
+                <li><a href="" title="5 key metrics you should know from Google Analytics">5 key metrics youfadsfadsflytics</a></li>
+                <li><a href="" title="We all dislike IE6 but lets not be childish">We alldsfasdfad but lets not be childish</a></li>
+
+            </div>
+        </div><!--end #tab1//-->
+
+        <div id="tab5" class="tabbox">
+            <div class="tabbox_nav">
+                <h3>非洲</h3>
+                <ul>
+                    <li><a src="#"><p>纳米比亚</p></a></li>
+                    <li><a src="#"><p>摩洛哥</p></a></li>
+                    <li><a src="#"><p>南非</p></a></li>
+                </ul>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
+            <div class="tabcontent">
+
+                <li><a href="" title="5 key metrics you should know from Google Analytics">5 key metrics youfadsfadsflytics</a></li>
+                <li><a href="" title="We all dislike IE6 but lets not be childish">We alldsfasdfad but lets not be childish</a></li>
+
+            </div>
+        </div><!--end #tab1//-->
+
+        <br class="clearboth">
+
+    </div><!--end #csstabs//-->
+
+    <div class="carousel_position">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="carousel-banner" src="assets/banner.jpg" alt="...">
+
+            <div class="carousel-caption">
+                <h3>Example Words</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img class="carousel-banner" src="assets/banner.jpg" alt="...">
+
+            <div class="carousel-caption">
+                ...
+            </div>
+        </div>
+        <div class="item">
+            <img class="carousel-banner" src="assets/banner.jpg" alt="...">
+
+            <div class="carousel-caption">
+                ...
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+    </div>
+</div>
+
+
+<!-- /container -->
+
+
+<div id="good_choice" class="container good_choice">
+    <div class=""><img class="hr1" src="assets/hr_1.png"></div>
+    <section>
+
+        <section>
+            <div class="tabs tabs-style-iconbox">
+                <nav>
+                    <ul>
+                        <li class="tab-current"><a href="#section-iconbox-5" class="icon "><span>美国</span></a></li>
+                        <li class=""><a href="#section-iconbox-6" class="icon"><span>加拿大</span></a></li>
+                        <li class=""><a href="#section-iconbox-7" class="icon "><span>法国</span></a></li>
+                        <li><a href="#section-iconbox-8" class="icon "><span>意大利</span></a></li>
+                    </ul>
+                </nav>
+                <div class="content-wrap">
+                    <section id="section-iconbox-5" class="content-current">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="view view-sixth">
+                                <img src="assets/pic_1.png"/>
+
+                                <div class="mask  big-mask">
+                                    <h2>纽约</h2>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_2.png"/>
+
+                                    <div class="mask">
+                                        <h2>旧金山</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+
+                                <div class="view view-sixth special-space">
+
+                                <img src="assets/pic_3.png"/>
+
+                                <div class="mask">
+                                    <h2>芝加哥</h2>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                <img src="assets/pic_4.png"/>
+
+                                <div class="mask">
+                                    <h2>洛杉矶</h2>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
+
+                                </div>
+
+                                <div class="view view-sixth special-space">
+                                <img src="assets/pic_5.png"/>
+
+                                <div class="mask">
+                                    <h2>华盛顿特区</h2>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                <img src="assets/pic_6.png"/>
+
+                                <div class="mask big-mask">
+                                    <h2>拉斯维加斯</h2>
+                                    <a href="#" class="info">Read More</a>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section id="section-iconbox-6" class="">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="view view-sixth big-mask">
+                                    <img src="assets/pic_1.png"/>
+
+                                    <div class="mask big-mask">
+                                        <h2>纽约</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_3.png"/>
+
+                                    <div class="mask">
+                                        <h2>旧金山</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+
+                                <div class="view view-sixth special-space">
+
+                                    <img src="assets/pic_2.png"/>
+
+                                    <div class="mask">
+                                        <h2>芝加哥</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_5.png"/>
+
+                                    <div class="mask">
+                                        <h2>洛杉矶</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="view view-sixth special-space">
+                                    <img src="assets/pic_4.png"/>
+
+                                    <div class="mask">
+                                        <h2>华盛顿特区</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_6.png"/>
+
+                                    <div class="mask big-mask">
+                                        <h2>拉斯维加斯</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="section-iconbox-7" class="">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_1.png"/>
+
+                                    <div class="mask big-mask">
+                                        <h2>纽约</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_4.png"/>
+
+                                    <div class="mask">
+                                        <h2>旧金山</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+
+                                <div class="view view-sixth special-space">
+
+                                    <img src="assets/pic_5.png"/>
+                                    <div class="mask">
+                                        <h2>华盛顿特区</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_2.png"/>
+
+                                    <div class="mask">
+                                        <h2>洛杉矶</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="view view-sixth special-space">
+                                    <img src="assets/pic_3.png"/>
+
+                                    <div class="mask">
+                                        <h2>芝加哥</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_6.png"/>
+
+                                    <div class="mask big-mask">
+                                        <h2>拉斯维加斯</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="section-iconbox-8">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_1.png"/>
+
+                                    <div class="mask big-mask">
+                                        <h2>纽约</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_2.png"/>
+
+                                    <div class="mask">
+                                        <h2>旧金山</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+
+                                <div class="view view-sixth special-space">
+
+                                    <img src="assets/pic_3.png"/>
+
+                                    <div class="mask">
+                                        <h2>芝加哥</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_4.png"/>
+
+                                    <div class="mask">
+                                        <h2>洛杉矶</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="view view-sixth special-space">
+                                    <img src="assets/pic_5.png"/>
+
+                                    <div class="mask">
+                                        <h2>华盛顿特区</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
+                                <div class="view view-sixth ">
+                                    <img src="assets/pic_6.png"/>
+
+                                    <div class="mask big-mask">
+                                        <h2>拉斯维加斯</h2>
+                                        <a href="#" class="info">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <!-- /content -->
+            </div>
+            <!-- /tabs -->
+        </section>
+</div>
+
+<div id="location" class="container">
+    <div class=""><img class="hr1" src="assets/hr_1.png"></div>
+
+    <section>
+        <div class="tabs tabs-style-iconbox">
+            <nav>
+                <ul>
+                    <li class="tab-current"><a href="#section-iconbox-1" class="icon "><span>空中观光</span></a></li>
+                    <li class=""><a href="#section-iconbox-2" class="icon"><span>水上运动</span></a></li>
+                    <li class=""><a href="#section-iconbox-3" class="icon "><span>文化主题之旅</span></a></li>
+                    <li><a href="#section-iconbox-4" class="icon "><span>吃喝玩乐</span></a></li>
+                </ul>
+            </nav>
+            <div class="content-wrap">
+                <section id="section-iconbox-1" class="content-current">
+                    <div class="row">
+                        <div class="col-xs-3">
+                        <div class="view_location">
+                            <img src="images/13.jpg"/>
+
+                            <div class="mask2">
+                                <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                <p class="info">迈阿密 | 游玩6Hours</p>
+                                <p class="price">$188.99</p>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/12.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/11.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/10.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/13.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/12.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/11.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/10.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section id="section-iconbox-2" class="">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/8.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/7.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/6.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/5.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/10.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/13.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/4.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/1.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section id="section-iconbox-3" class="">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/3.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/7.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/2.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/8.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/12.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/13.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/11.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/6.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section id="section-iconbox-4">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/13.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/12.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/11.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/10.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/13.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/12.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Watersports Partyboat </a></h4>
+                                    <p class="info">基维斯特 | 游玩6Hours</p>
+                                    <p class="price">$116.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/11.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Cancun Waverunner </a></h4>
+                                    <p class="info">坎昆 | 游玩2Hours</p>
+                                    <p class="price">$79.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+                            <div class="view_location">
+                                <img src="images/10.jpg"/>
+
+                                <div class="mask2">
+                                    <h4><a href="#" class="products"> Ultimate Miami Watersport Adventure </a></h4>
+                                    <p class="info">迈阿密 | 游玩6Hours</p>
+                                    <p class="price">$188.99</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <!-- /content -->
+        </div>
+        <!-- /tabs -->
+    </section>
+
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/cbpFWTabs.js"></script>
+<script>
+
+</script>
+
+
+</body>
+</html>

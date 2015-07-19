@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+/*blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+.container{
+	width: 1200px;
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #ffffff;
+	color: #74777b;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+	color: #323341;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #0e2a7b;
+}
+
+.support {
+	display: none;
+	color: #ef5189;
+	text-align: left;
+	font-size: 1.5em;
+	max-width: 1200px;
+	margin: 1em auto 0;
+	padding: 0;
+}
+
+.no-flexbox .support {
+	display: block;
+}
+
+.hidden {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.container > section {
+	padding: 1em 0;
+	font-size: 1.25em;
+	min-height: 100%;
+}
+
+
+/*pic show*/
+.container .row{
+	margin: 15px 0 0 0;
+}
+
+/*main banner slider*/
+.carousel-banner{
+	width: 100%;
+}
+
+.remove-padding{
+	padding: 0;
+}
+
+.main_banner{
+	height: auto;
+}
+
+.carousel{
+    z-index: 2;
+	position: absolute;
+	right: 0px;
+	width: 860px;
+}
+
+.carousel-inner img{
+	height: 100%;
+}
+
+.carousel_position{
+	position: relative;
+}
+
+.hr1{
+	width: 100%;
+}
+
+#good_choice{
+	margin-top: 15px;
+}
+
+#location{
+	margin-top: 15px;
+}
