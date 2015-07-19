@@ -93,7 +93,8 @@ a:hover, a:focus {
     z-index: 2;
 	position: absolute;
 	right: 0px;
-	width: 860px;
+	width: 830px;
+	height: 347px;
 }
 
 .carousel-inner img{
@@ -102,6 +103,7 @@ a:hover, a:focus {
 
 .carousel_position{
 	position: relative;
+	margin-right: 15px;
 }
 
 .hr1{
