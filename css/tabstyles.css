@@ -118,7 +118,9 @@
 	height:347px;
 	display:block;
 	margin:0;
-	opacity:0;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
 }
 
 
@@ -139,7 +141,9 @@
 
 #tab2 .tabcontent{
 	z-index:1;
-	opacity:0;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
 }
 #tab2 .tabbox_nav{
 	width:280px;
@@ -151,7 +155,9 @@
 
 #tab3 .tabcontent{
 	z-index:1;
-	opacity:0;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
 }
 #tab3 .tabbox_nav{
 	width:280px;
@@ -163,7 +169,9 @@
 
 #tab4 .tabcontent{
 	z-index:1;
-	opacity:0;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
 }
 #tab4 .tabbox_nav{
 	width:280px;
@@ -175,7 +183,9 @@
 
 #tab5 .tabcontent{
 	z-index:1;
-	opacity:0;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
 }
 #tab5 .tabbox_nav{
 	width:280px;
@@ -198,19 +208,29 @@
 }
 
 #tab1:hover .tabbox_nav,#tab1:focus .tabbox_nav,#tab1:active .tabbox_nav{z-index:4;background:#fff; border-right: 0px;border-top:2px solid #58aff6;border-bottom:2px solid #58aff6;}
-#tab1:hover .tabcontent,#tab1:focus .tabcontent,#tab1:active .tabcontent{	z-index:3;	background:#fff; opacity:1; -webkit-transition : opacity 0.15s ease-in;}
+#tab1:hover .tabcontent,#tab1:focus .tabcontent,#tab1:active .tabcontent{	z-index:3;	background:#fff; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+	opacity: 1; -webkit-transition : opacity 0.15s ease-in;}
 
 #tab2:hover .tabbox_nav,#tab2:focus .tabbox_nav,#tab2:active .tabbox_nav{z-index:4;background:#fff; border-right: 0px; border-top:2px solid #58aff6;border-bottom:2px solid #58aff6;}
-#tab2:hover .tabcontent,#tab2:focus .tabcontent,#tab2:active .tabcontent{	z-index:3;	background:#fff; opacity:1; -webkit-transition : opacity 0.15s ease-in;}
+#tab2:hover .tabcontent,#tab2:focus .tabcontent,#tab2:active .tabcontent{	z-index:3;	background:#fff; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+	opacity: 1; -webkit-transition : opacity 0.15s ease-in;}
 
 #tab3:hover .tabbox_nav,#tab3:focus .tabbox_nav,#tab3:active .tabbox_nav{z-index:4;background:#fff; border-right: 0px; border-top:2px solid #58aff6;border-bottom:2px solid #58aff6;}
-#tab3:hover .tabcontent,#tab3:focus .tabcontent,#tab3:active .tabcontent{	z-index:3;	background:#fff; opacity:1; -webkit-transition : opacity 0.15s ease-in;}
+#tab3:hover .tabcontent,#tab3:focus .tabcontent,#tab3:active .tabcontent{	z-index:3;	background:#fff; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+	opacity: 1; -webkit-transition : opacity 0.15s ease-in;}
 
 #tab4:hover .tabbox_nav,#tab4:focus .tabbox_nav,#tab4:active .tabbox_nav{z-index:4;background:#fff; border-right: 0px; border-top:2px solid #58aff6;border-bottom:2px solid #58aff6;}
-#tab4:hover .tabcontent,#tab4:focus .tabcontent,#tab4:active .tabcontent{	z-index:3;	background:#fff; opacity:1; -webkit-transition : opacity 0.15s ease-in;}
+#tab4:hover .tabcontent,#tab4:focus .tabcontent,#tab4:active .tabcontent{	z-index:3;	background:#fff; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+	opacity: 1; -webkit-transition : opacity 0.15s ease-in;}
 
 #tab5:hover .tabbox_nav,#tab5:focus .tabbox_nav,#tab5:active .tabbox_nav{z-index:4;background:#fff; border-right: 0px; border-top:2px solid #58aff6;border-bottom:2px solid #58aff6;}
-#tab5:hover .tabcontent,#tab5:focus .tabcontent,#tab5:active .tabcontent{	z-index:3;	background:#fff; opacity:1; -webkit-transition : opacity 0.15s ease-in;}
+#tab5:hover .tabcontent,#tab5:focus .tabcontent,#tab5:active .tabcontent{	z-index:3;	background:#fff;    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+	opacity: 1; -webkit-transition : opacity 0.15s ease-in;}
 
 
 .tabbox_title{
