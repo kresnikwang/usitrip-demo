@@ -131,11 +131,12 @@ a:hover, a:focus {
 	color: #878a8e;
 	position: absolute;
 	right: 20px;
-	top: -25px;
+	top: 15px;
 	text-align: center;
 	font-size: 15px;
 	font-family: 'Raleway', Arial, sans-serif;
 	padding: 6px;
+	z-index: 101;
 }
 
 
